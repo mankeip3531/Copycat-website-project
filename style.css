@@ -1,0 +1,68 @@
+body {
+    color: white;
+    background-image: linear-gradient(100deg, #166DB4, #7B3A9C);
+    background-attachment:fixed;
+    font-family:"museo-sans", "Museo Sans", "Helvetica Neue", "Arial", sans-serif;;
+
+}
+
+.logo {
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:25px;
+}
+.box {
+    width:320px;
+    height:240px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    padding-top:10px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 5px;
+
+}
+#wrap {
+    list-style: none;
+    width: 100%;
+    height:30px;
+    margin:0;
+    padding:0;
+
+}
+#wrap > li{
+    display:inline-block;
+}
+.button {
+    width:75px;
+    height:40px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-10px;
+    background:rgba(255,255,255,0.15);
+    border-radius:5px;
+
+}
+.sign-in {
+    padding-top:12px;
+    text-align:center;
+    font-size:13.5px;
+}
+.links {
+    text-decoration: none;
+    color:white;
+}
+.button:hover {
+    background: rgba(255,255,255,0.25);
+}
+
+
+.links:hover{
+    text-decoration:underline;
+}
+.link {
+    font-size:12.5px;
+    margin-top:20px;
+}
